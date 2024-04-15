@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "qanelasextrabold_italic";
+    src: url(d:\Users\Daniel\Downloads\qanelas.zip), format('truetype');
+}
+
+body{
+    font-family: "Roboto" , sans-serif;
+}
+
+h1, h2, h3{
+    font-family: qanelaextrabold_italic;
+}
+
+
+/* Menu */
+
+.header-top{
+    position: relative;
+    z-index: 11;
+    padding: 0;
+    background-color: #0c0c0c;
+    color: #fff;
+    font-size: .813rem;
+    line-height: 1;
+}
+
+.header-top__item{
+    justify-content: center;
+    height: 50px;
+}
